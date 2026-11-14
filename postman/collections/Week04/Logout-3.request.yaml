@@ -1,0 +1,7 @@
+$kind: http-request
+name: Logout
+url: http://localhost:3000/logout
+method: GET
+body:
+  type: urlencoded
+order: 10000

@@ -1,0 +1,7 @@
+$kind: http-request
+name: Services
+url: http://localhost:3000/services
+method: GET
+body:
+  type: urlencoded
+order: 7000

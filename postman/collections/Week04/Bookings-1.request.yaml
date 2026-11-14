@@ -1,0 +1,7 @@
+$kind: http-request
+name: Bookings
+url: http://localhost:3000/bookings
+method: GET
+body:
+  type: urlencoded
+order: 8000

@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/services/book
+method: POST
+body:
+  type: urlencoded
+  content:
+    petId: "1"
+    serviceId: "1"
+    bookingDate: 2026-11-10
+order: 5000
